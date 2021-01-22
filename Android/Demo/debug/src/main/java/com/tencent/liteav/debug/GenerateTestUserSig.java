@@ -41,7 +41,7 @@ public class GenerateTestUserSig {
      * 进入腾讯云云通信[控制台](https://console.cloud.tencent.com/avc ) 创建应用，即可看到 SDKAppId，
      * 它是腾讯云用于区分客户的唯一标识。
      */
-    public static final int SDKAPPID = PLACEHOLDER;
+    public static final int SDKAPPID = 1400478391;
 
 
     /**
@@ -63,7 +63,7 @@ public class GenerateTestUserSig {
      * 注意：该方案仅适用于调试Demo，正式上线前请将 UserSig 计算代码和密钥迁移到您的后台服务器上，以避免加密密钥泄露导致的流量盗用。
      * 文档：https://cloud.tencent.com/document/product/269/32688#Server
      */
-    private static final String SECRETKEY = "";
+    private static final String SECRETKEY = "ce3daa2042dc4600b78a00dd8bc9364ff9bb508ff835ccd76a92a2ea29afaeff";
 
     /**
      * 计算 UserSig 签名
